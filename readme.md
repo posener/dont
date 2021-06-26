@@ -20,4 +20,4 @@ var arthur = dont.Panic(user.Current())
 ```
 
 > It is recommended only to use the `dont.Panic` function to initialize package scope variables,
-> where in case of a panic, the program will crush on loading time.
+> where in case of a panic, the program will crash on loading time.
